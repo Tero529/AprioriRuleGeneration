@@ -1,0 +1,36 @@
+Rule 1: el-salvador-aid=n  --->  physician-fee-freeze=n Class=democrat 
+Rule 2: el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 3: el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 4: el-salvador-aid=n Class=democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 5: physician-fee-freeze=n el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y Class=democrat 
+Rule 6: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n Class=democrat 
+Rule 7: anti-satellite-test-ban=y Class=democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 8: physician-fee-freeze=n anti-satellite-test-ban=y  --->  adoption-of-the-budget-resolution=y Class=democrat 
+Rule 9: adoption-of-the-budget-resolution=y anti-satellite-test-ban=y  --->  physician-fee-freeze=n Class=democrat 
+Rule 10: physician-fee-freeze=n el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 11: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 12: aid-to-nicaraguan-contras=y Class=democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 13: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y Class=democrat 
+Rule 14: adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n Class=democrat 
+Rule 15: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 16: physician-fee-freeze=n education-spending=n  --->  adoption-of-the-budget-resolution=y Class=democrat 
+Rule 17: adoption-of-the-budget-resolution=y education-spending=n  --->  physician-fee-freeze=n Class=democrat 
+Rule 18: el-salvador-aid=n Class=democrat  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 19: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 20: el-salvador-aid=n Class=democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 21: el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n Class=democrat 
+Rule 22: physician-fee-freeze=n el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 23: el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y Class=democrat 
+Rule 24: anti-satellite-test-ban=y Class=democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 25: physician-fee-freeze=n anti-satellite-test-ban=y  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 26: aid-to-nicaraguan-contras=y education-spending=n  --->  physician-fee-freeze=n Class=democrat 
+Rule 27: el-salvador-aid=n anti-satellite-test-ban=y  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 28: el-salvador-aid=n aid-to-nicaraguan-contras=y Class=democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 29: physician-fee-freeze=n el-salvador-aid=n Class=democrat  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 30: physician-fee-freeze=n el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y Class=democrat 
+Rule 31: adoption-of-the-budget-resolution=y el-salvador-aid=n Class=democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 32: adoption-of-the-budget-resolution=y el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n Class=democrat 
+Rule 33: adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  el-salvador-aid=n Class=democrat 
+Rule 34: adoption-of-the-budget-resolution=y physician-fee-freeze=n el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y Class=democrat 
+Rule 35: physician-fee-freeze=n el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y Class=democrat 
+Rule 36: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y Class=democrat 

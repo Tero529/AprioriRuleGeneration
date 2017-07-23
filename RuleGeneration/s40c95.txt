@@ -1,0 +1,8 @@
+Rule 1: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n democrat 
+Rule 2: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 3: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 4: physician-fee-freeze=n el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 5: adoption-of-the-budget-resolution=y el-salvador-aid=n democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 6: adoption-of-the-budget-resolution=y el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n democrat 
+Rule 7: adoption-of-the-budget-resolution=y physician-fee-freeze=n el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 8: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat 

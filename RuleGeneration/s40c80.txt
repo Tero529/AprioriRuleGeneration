@@ -1,0 +1,102 @@
+Rule 1: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 2: democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 3: physician-fee-freeze=n  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 4: adoption-of-the-budget-resolution=y  --->  physician-fee-freeze=n democrat 
+Rule 5: mx-missile=y  --->  physician-fee-freeze=n democrat 
+Rule 6: aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 7: education-spending=n  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 8: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 9: el-salvador-aid=n  --->  physician-fee-freeze=n anti-satellite-test-ban=y 
+Rule 10: el-salvador-aid=n  --->  physician-fee-freeze=n democrat 
+Rule 11: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 12: el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 13: aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 14: adoption-of-the-budget-resolution=y  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 15: education-spending=n  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 16: aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n democrat 
+Rule 17: physician-fee-freeze=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 18: education-spending=n  --->  physician-fee-freeze=n democrat 
+Rule 19: physician-fee-freeze=n  --->  education-spending=n democrat 
+Rule 20: el-salvador-aid=n  --->  anti-satellite-test-ban=y democrat 
+Rule 21: el-salvador-aid=n  --->  anti-satellite-test-ban=y aid-to-nicaraguan-contras=y 
+Rule 22: aid-to-nicaraguan-contras=y  --->  el-salvador-aid=n democrat 
+Rule 23: el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 24: mx-missile=y  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 25: el-salvador-aid=y  --->  religious-groups-in-schools=y crime=y 
+Rule 26: el-salvador-aid=n democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 27: physician-fee-freeze=n el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 28: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n democrat 
+Rule 29: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  el-salvador-aid=n democrat 
+Rule 30: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n democrat 
+Rule 31: anti-satellite-test-ban=y democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 32: physician-fee-freeze=n anti-satellite-test-ban=y  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 33: adoption-of-the-budget-resolution=y anti-satellite-test-ban=y  --->  physician-fee-freeze=n democrat 
+Rule 34: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  anti-satellite-test-ban=y democrat 
+Rule 35: el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 36: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y el-salvador-aid=n 
+Rule 37: physician-fee-freeze=n el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 38: adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n el-salvador-aid=n 
+Rule 39: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 40: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  el-salvador-aid=n aid-to-nicaraguan-contras=y 
+Rule 41: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 42: aid-to-nicaraguan-contras=y democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 43: physician-fee-freeze=n democrat  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 44: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 45: adoption-of-the-budget-resolution=y democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 46: adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n democrat 
+Rule 47: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 48: aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n democrat 
+Rule 49: education-spending=n democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 50: physician-fee-freeze=n education-spending=n  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 51: adoption-of-the-budget-resolution=y democrat  --->  physician-fee-freeze=n education-spending=n 
+Rule 52: adoption-of-the-budget-resolution=y education-spending=n  --->  physician-fee-freeze=n democrat 
+Rule 53: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  education-spending=n democrat 
+Rule 54: education-spending=n  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n democrat 
+Rule 55: aid-to-nicaraguan-contras=y democrat  --->  adoption-of-the-budget-resolution=y el-salvador-aid=n 
+Rule 56: el-salvador-aid=n democrat  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 57: el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 58: adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y  --->  el-salvador-aid=n democrat 
+Rule 59: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 60: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y democrat 
+Rule 61: aid-to-nicaraguan-contras=y democrat  --->  physician-fee-freeze=n el-salvador-aid=n 
+Rule 62: el-salvador-aid=n democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 63: el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n democrat 
+Rule 64: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  el-salvador-aid=n democrat 
+Rule 65: physician-fee-freeze=n el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 66: el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat 
+Rule 67: aid-to-nicaraguan-contras=y democrat  --->  physician-fee-freeze=n anti-satellite-test-ban=y 
+Rule 68: anti-satellite-test-ban=y democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 69: anti-satellite-test-ban=y aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n democrat 
+Rule 70: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  anti-satellite-test-ban=y democrat 
+Rule 71: physician-fee-freeze=n anti-satellite-test-ban=y  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 72: education-spending=n democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 73: aid-to-nicaraguan-contras=y democrat  --->  physician-fee-freeze=n education-spending=n 
+Rule 74: aid-to-nicaraguan-contras=y education-spending=n  --->  physician-fee-freeze=n democrat 
+Rule 75: physician-fee-freeze=n education-spending=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 76: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  education-spending=n democrat 
+Rule 77: aid-to-nicaraguan-contras=y democrat  --->  el-salvador-aid=n anti-satellite-test-ban=y 
+Rule 78: anti-satellite-test-ban=y democrat  --->  el-salvador-aid=n aid-to-nicaraguan-contras=y 
+Rule 79: anti-satellite-test-ban=y aid-to-nicaraguan-contras=y  --->  el-salvador-aid=n democrat 
+Rule 80: el-salvador-aid=n democrat  --->  anti-satellite-test-ban=y aid-to-nicaraguan-contras=y 
+Rule 81: el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  anti-satellite-test-ban=y democrat 
+Rule 82: el-salvador-aid=n anti-satellite-test-ban=y  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 83: el-salvador-aid=n  --->  anti-satellite-test-ban=y aid-to-nicaraguan-contras=y democrat 
+Rule 84: el-salvador-aid=n aid-to-nicaraguan-contras=y democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n 
+Rule 85: physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat  --->  adoption-of-the-budget-resolution=y el-salvador-aid=n 
+Rule 86: physician-fee-freeze=n el-salvador-aid=n democrat  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y 
+Rule 87: physician-fee-freeze=n el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y democrat 
+Rule 88: adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y democrat  --->  physician-fee-freeze=n el-salvador-aid=n 
+Rule 89: adoption-of-the-budget-resolution=y el-salvador-aid=n democrat  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 90: adoption-of-the-budget-resolution=y el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n democrat 
+Rule 91: adoption-of-the-budget-resolution=y physician-fee-freeze=n democrat  --->  el-salvador-aid=n aid-to-nicaraguan-contras=y 
+Rule 92: adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  el-salvador-aid=n democrat 
+Rule 93: adoption-of-the-budget-resolution=y physician-fee-freeze=n el-salvador-aid=n  --->  aid-to-nicaraguan-contras=y democrat 
+Rule 94: aid-to-nicaraguan-contras=y democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n el-salvador-aid=n 
+Rule 95: el-salvador-aid=n democrat  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y 
+Rule 96: el-salvador-aid=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n democrat 
+Rule 97: physician-fee-freeze=n aid-to-nicaraguan-contras=y  --->  adoption-of-the-budget-resolution=y el-salvador-aid=n democrat 
+Rule 98: physician-fee-freeze=n el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y democrat 
+Rule 99: adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y  --->  physician-fee-freeze=n el-salvador-aid=n democrat 
+Rule 100: adoption-of-the-budget-resolution=y el-salvador-aid=n  --->  physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat 
+Rule 101: adoption-of-the-budget-resolution=y physician-fee-freeze=n  --->  el-salvador-aid=n aid-to-nicaraguan-contras=y democrat 
+Rule 102: el-salvador-aid=n  --->  adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat 
